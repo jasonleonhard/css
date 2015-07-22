@@ -8,7 +8,7 @@ pre.prettyprint {
   display: block; 
   background-color: #272822; 
   padding:1em;
-  overflow:scroll;
+  /*overflow:scroll;*/
 }
 /* Orange Highlight */
 pre *::selection{
