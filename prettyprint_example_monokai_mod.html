@@ -21,17 +21,21 @@
 <pre class="prettyprint lang-html">
     <code class="lang-html">
       <h1>My First Heading</h1>
-      <p>My first paragraph.</p>
+      <p>My first paragraph</p>
   </code>
 </pre>
 <!-- consider if code then insert <pre class="prettyprint">   -->
 
 
-<!--DO THIS: example 2 html notice html not working -->
+<!--DO THIS: example 2 html hack to make prettyprint recognize html -->
+<!-- may want to save as seperate file and then just sed replace < with &lt;  and > with &gt;  -->
 <pre class="prettyprint lang-html">
   <code class="prettyprint">
     &lt;div id="code-example"&gt;
-        ...
+        
+      &lt;h1&gt;My First Heading&lt;/h1&gt;
+      &lt;p&gt;My first paragraph&lt;/p&gt;
+
     &lt;/div&gt;
   </code>
 </pre>
